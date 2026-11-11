@@ -1,0 +1,28 @@
+:root {
+  --primary: #7c3aed;
+  --primary-dark: #5b21b6;
+  --accent: #a78bfa;
+
+  --dark: #111827;
+  --dark-soft: #1f2937;
+
+  --white: #ffffff;
+  --light: #f8fafc;
+  --gray: #64748b;
+}
+
+@import "tailwindcss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
